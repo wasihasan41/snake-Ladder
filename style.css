@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+table {
+  height: 400px;
+  width: 400px;
+  border: 3px solid yellow;
+  margin-bottom: 100px;
+}
+
+/* .box {
+  display: flex;
+  height: 3em;
+  width: 16.6%;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-color: yellow;
+} */
+
+td{
+  font-size: 30px;
+  font-weight: 600;
+  border: 2px solid yellow;
+  text-align: center;
+}
+
+.snake{
+  background-color: rgb(255, 44, 20) 
+}
+.ladder{
+  background-color: green;
+}
+
+
+.color {
+  background-color: yellow;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 3;
+
+}
+
+Button {
+  background-color: greenyellow;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.values{
+  color: red;
+}
+/* [data-number^="3"]{
+  //starts with 3 
+  background-color: blueviolet;
+}
+*/
+/* [data-number$="3"]{
+  // ends with 3 
+  background-color: blueviolet;
+} */
+/* [data-number*="3"]{
+  //contains 3
+  background-color: blueviolet;
+} */
