@@ -88,7 +88,11 @@ const getNewBoxNumber = (diceValue) => {
   currentActiveBox.classList.remove("color");
   const currentCount = parseInt(currentActiveBox.dataset.number)
   const finalCount = currentCount + diceValue;
+  if(finalCount> 36){
+    currentActiveBox.classList.add('color')
+  }
   return finalCount;
+
 
 }
 
